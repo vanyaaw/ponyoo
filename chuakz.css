@@ -1,0 +1,236 @@
+body {
+    padding: 0; margin: 0;
+    background-image: url(pink2.jpg);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+header{
+    background-color: white;
+}
+
+marquee{
+    background-color: white;
+    font-size: 25px;
+}
+
+button{
+    display: flex;
+    font-weight: 500;
+    font-size: 13px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 20px;
+    margin-top: 2%;
+}
+
+button:hover{
+    border: 1px black;
+    color: rgb(246, 229, 232);
+}
+
+.tabeljadwal{
+    border: 4px double black;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.Jadwal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -28%);
+    background-color: rgb(246, 229, 232);
+}
+
+.daftar{
+    display: block;
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    border: 4px double black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#siswa{
+    width: auto;
+    height: auto;
+    border: 5px dotted black;
+    margin-bottom: 3%;
+}
+
+#siswa div{
+    width: 250px;
+    height: auto;
+    background-color: rgb(246, 229, 232);
+    border: 2px dashed black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+#siswa div ol li{
+    text-align: left;
+}
+
+#jadwalpiket{
+    width: auto;
+    height: auto;
+    border: 5px dotted black;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#jadwalpiket h5{
+    margin-top: 18px;
+    margin-bottom: -5px;
+    border-bottom: 2px dashed black;
+}
+
+#jadwalpiket div{
+    width: 250px;
+    height: auto;
+    border: 2px solid black;
+    background-color: rgb(246, 229, 232);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+#jadwalpiket div ul li{
+    text-align: left;
+}
+
+.video{
+    border: 5px dotted black;
+    margin-bottom: 1%;
+}
+
+#kumpulan div{
+    border: 2px solid black;
+    background-color: rgb(246, 229, 232);
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 2%
+}
+
+#kumpulan div video{
+    width:500px; 
+    padding: 20px;
+    margin-right: auto;
+
+}
+
+.foto{
+    border: 5px dotted black;
+}
+
+#Dokumentasi div{
+    border: 2px solid black;
+    background-color: rgb(246, 229, 232);
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 2%
+}
+
+#Dokumentasi div img{
+    width:500px; 
+    height:300px;
+    padding: 20px;
+    margin-right: 20px; 
+}
+
+@media screen and (min-width:767px) and (max-width:1080px) {
+    
+body{
+    background-image: url(blue6.jpg);
+}
+
+button:hover{
+    color: rgb(0, 75, 128);
+}
+
+.Jadwal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    background-color: rgb(246, 229, 232);
+}
+
+
+.Jadwal{
+    background-color: rgb(183, 223, 251);
+}
+
+#siswa div{
+        background-color: rgb(183, 223, 251);
+}
+
+#jadwalpiket div{
+    background-color: rgb(183, 223, 251);
+}
+
+#kumpulan div{
+    background-color: rgb(183, 223, 251);
+}
+
+#Dokumentasi div{
+    background-color: rgb(183, 223, 251);
+}
+
+}
+
+@media screen and (max-width:720px){
+
+body{
+    background-image: url(purple2.jpg);
+}
+
+button:hover{
+    color: rgb(116, 65, 245);
+}
+
+.Jadwal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    background-color: rgb(246, 229, 232);
+}
+
+
+.Jadwal{
+    background-color: rgb(183, 223, 251);
+}
+
+#siswa div{
+        background-color: rgb(183, 223, 251);
+}
+
+#jadwalpiket div{
+    background-color: rgb(183, 223, 251);
+}
+
+#kumpulan div{
+    background-color: rgb(183, 223, 251);
+}
+
+#Dokumentasi div{
+    background-color: rgb(183, 223, 251);
+}
+}
