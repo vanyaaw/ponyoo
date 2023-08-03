@@ -232,7 +232,7 @@ button:hover{
 @media screen and (max-width:720px){
 
     body{
-        background-image: url(doct/purple3.jpg);
+        background-image: url(purple3.jpg);
         background-size: cover;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
