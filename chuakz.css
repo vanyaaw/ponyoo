@@ -273,7 +273,7 @@ button:hover{
     .Jadwal{
         position: absolute;
         top: 50%;
-        transform: translate(-50%, 9%);
+        transform: translate(-50%, 5%);
         background-color: rgb(204, 184, 255);
     }
 
